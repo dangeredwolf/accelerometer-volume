@@ -60,9 +60,7 @@ var canvas = document.getElementById('c'),
     touchToMouse = e => {
         let t = e.touches[e.touches.length - 1];
         return t
-    },
-    π = 3.141592653589793,
-    𝜏 = π * 2;
+    }
 
 (r = () => {
     canvas.width = 300;
@@ -139,7 +137,7 @@ class Ball {
 
         this.render = () => {
             ctx.beginPath();
-            ctx.arc(vw(this.pos.x), vh(this.pos.y), vw(this.radius), 0, 𝜏);
+            ctx.arc(vw(this.pos.x), vh(this.pos.y), vw(this.radius), 0, Math.PI * 2);
             ctx.closePath();
 
             ctx.fillStyle = '#000';
