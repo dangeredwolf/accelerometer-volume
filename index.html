@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="Volume Control" property="og:title">
+    <meta name="robots" content="index, follow">
+    <title>Physics Volume Control</title>
+	<style>
+		/* can't be bothered to put this in another file */
+		html {
+			font-family: Roboto, "Segoe UI", "Open Sans", sans-serif;
+		}
+
+		a {
+			color: #2196f3;
+			text-decoration: none;
+		}
+
+		a:hover, a:focus {
+			text-decoration: underline;
+		}
+
+		.green {
+			color: #4caf50;
+		}
+
+		.red {
+			color: #f44336;
+		}
+	</style>
+</head>
+
+<body>
+    <span style="position: absolute; top: 206px; left: 45px; pointer-events: none;">&#128266;</span>
+    <canvas id="c" style="border: 1px solid black; border-top: none"></canvas>
+	<p>Based on <a href="https://github.com/CaltropUwU/BadUI/tree/master/physicsVolumeBall">Caltrop's</a> volume slider project, <i>now with accelerometer support!</i></p>
+	<div id="support"></div>
+    <script src="./render.js"></script>
+</body>
+
+</html>
