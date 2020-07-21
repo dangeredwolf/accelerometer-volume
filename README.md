@@ -4,4 +4,4 @@
 
 The page uses accelerator input to control a volume slider. This requires a browser that supports the Accelerometer API.
 
-Chrome for Android supports it, Firefox for Android does not.
+Chrome for Android supports it, Firefox for Android does not. Check https://caniuse.com/#feat=accelerometer for a full list.
