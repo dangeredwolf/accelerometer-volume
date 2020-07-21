@@ -315,7 +315,7 @@ if (typeof Accelerometer !== "undefined") {
 	document.getElementById("support").innerHTML = "Your browser <b class=\"red\">DOES NOT SUPPORT</b> the accelerometer API. Boooo :(";
 }
 
-const maxVolume = 0.2;
+const maxVolume = 0.7;
 const minFreq = 300;
 const maxFreq = 480;
 (f = i => {
